@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen U1</title>
+     <link
+      rel="shortcut icon"
+      href="./assets/img/musica.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Iconos  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row my-3">
+            <!-- Carrusel de fotos  -->
+            <div class="col-12 col-md-9 my-3">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/img/12103.jpg" class="d-block w-100" alt="..." height="600">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/btr.jpg" class="d-block w-100" alt="..." height="600">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/shakira.png" class="d-block w-100" alt="..." height="600">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <!-- Menu -->
+            <div class="col-12 col-md-3 my-3">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Menú</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a href="/hit.html">Lo más escuchados</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="/banda.html">Música de Banda</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="/regueton.html">Música de reggueton</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row my-3">
+            <!-- Musica card -->
+            <div class="col-12 col-md-9">
+                <div class="cotainer-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-4 my-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./assets/img/tour.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lo más escuchados</h5>
+                                  <p class="card-text">Después de varios años ellos regresaron a subir el top , una banda como one direction regreso antes que ellos y claro aun sus canción son un hit que realizaron concierto por todo latino america.</p>
+                                  <a href="/hit.html" class="btn btn-primary">Escuchar Canción</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-4 my-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./assets/img/banda.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Música de Banda</h5>
+                                  <p class="card-text">El género que conocemos como música banda hace parte del amplio universo que es la música regional mexicana.Pese a tener un caracter folclórico, la música banda nace de la mezcla de otros generos musicales.</p>
+                                  <a href="/banda.html" class="btn btn-primary">Escuchar Canción</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-4 my-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./assets/img/daddy.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Música de reggueton</h5>
+                                  <p class="card-text">El reggaetón o reguetón, depende del lugar desde dónde leas esto, lleva años acompañándonos en las fiestas y revolucionando el mercado musical. Su ritmo es inconfundible y por mucho que alguien se pueda empeñar en esquivarlo.</p>
+                                  <a href="/regueton.html" class="btn btn-primary">Escuchar Canción</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+</body>
+</html>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/index.js"></script>
+<script>
+  feather.replace();
+</script>
